@@ -1,0 +1,1217 @@
+body {
+  background-color: black;
+}
+.cir1, .cir8 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #FF0000;
+  border: 0.5px solid black;
+  animation-name: cir1;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+}
+@keyframes cir1 {
+  from {
+
+    border-radius: 50px;
+    background-color: #FF0000;
+  }
+  to {
+
+
+    background-color: #38E54D;
+
+  }
+
+}
+.cir1:hover, .cir8:hover {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+.cir8 {
+  position: absolute;
+  top: 90px;
+  right: 100px;
+
+}
+.cir2, .cir11{
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: blue;
+  border: 0.5px solid black;
+  animation-name: cir2;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+}
+  .cir2 {
+    position: absolute;
+  left: 70px;
+  top: 0px;
+}
+@keyframes cir2 {
+  from {
+
+
+    background-color: blue;
+  }
+  to {
+
+
+    background-color: red;
+
+  }
+
+}
+.cir2:hover, .cir11:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+
+}
+.cir11 {
+  position: absolute;
+  right: 385px;
+  top: 10px;
+}
+.cir3 {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #EF5B0C;
+  border: 0.5px solid black;
+  animation-name: cir3;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+}
+@keyframes cir3 {
+  from {
+
+
+    background-color: #EF5B0C;
+  }
+  to {
+
+
+    background-color: #533E85;
+
+  }
+
+}
+.cir3:hover {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+
+}
+.cir4 {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: #C5D200;
+  border: 0.5px solid black;
+  animation-name: cir4;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+}
+@keyframes cir4 {
+  from {
+
+
+    background-color: #C5D200;
+  }
+  to {
+
+
+    background-color: #34B3F1;
+
+  }
+
+}
+.cir4:hover {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+
+}
+.cir5, .cir6 {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: #413F42;
+  border: 0.5px solid black;
+  animation-name: cir5;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+}
+.cir6 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+
+}
+@keyframes cir5 {
+  from {
+
+
+    background-color: #413F42;
+  }
+  to {
+
+
+    background-color: #035AA6;
+
+  }
+
+}
+.cir6:hover, .cir5:hover {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+
+}
+.cir7, .cir17{
+  height: 75px;
+  width: 75px;
+  border-radius: 75px;
+  background-color: #978D58;
+  border: 0.5px solid black;
+  animation-name: cir7;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+}
+@keyframes cir7 {
+  from {
+
+
+    background-color: #978D58;
+  }
+  to {
+
+
+    background-color: #A7D129;
+
+  }
+
+}
+.cir7:hover {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+}
+
+
+
+.cir9 {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-color: #256D85;
+  border: 0.5px solid black;
+  animation-name: cir9 ;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  right: 150px;
+}
+@keyframes cir9  {
+  from {
+
+
+    background-color: #256D85;
+  }
+  to {
+
+
+    background-color: #A27B5C;
+
+  }
+
+}
+.cir9:hover {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+
+}
+.cir10 {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: #361500;
+  border: 0.5px solid black;
+  animation-name: cir10 ;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  right: 300px;
+}
+@keyframes cir10  {
+  from {
+
+
+    background-color: #361500;
+  }
+  to {
+
+
+    background-color: #0F3D3E;
+
+  }
+
+}
+.cir10:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 120px;
+
+}
+.cir12 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #EF8D32;
+  border: 0.5px solid black;
+  animation-name: cir12 ;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 100px;
+  right: 300px;
+}
+@keyframes cir12  {
+  from {
+
+
+    background-color: #EF8D32;
+  }
+  to {
+
+
+    background-color: #443737;
+
+  }
+
+}
+.cir12:hover {
+  height: 80px;
+  width: 80px;
+  border-radius: 120px;
+
+}
+.cir13 {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  background-color: #00ABB3;
+  border: 0.5px solid black;
+  animation-name: cir13 ;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+@keyframes cir13  {
+  from {
+
+
+    background-color: #00ABB3;
+  }
+  to {
+
+
+    background-color: #C47AFF;
+
+  }
+
+}
+.cir13:hover {
+  height: 80px;
+  width: 80px;
+  border-radius: 120px;
+
+}
+.cir14 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: #2192FF;
+  border: 0.5px solid black;
+  animation-name: cir14 ;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 120px;
+  right: 0px;
+}
+@keyframes cir14  {
+  from {
+
+
+    background-color: #2192FF;
+  }
+  to {
+
+
+    background-color: #38E54D;
+
+  }
+
+}
+.cir14:hover {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+
+}
+.cir15 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: #2192FF;
+  border: 0.5px solid black;
+  animation-name: cir15 ;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 100px;
+  left: 130px;
+}
+@keyframes cir15  {
+  from {
+
+
+    background-color: #2192FF;
+  }
+  to {
+
+
+    background-color: #38E54D;
+
+  }
+
+}
+.cir15:hover {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+
+}
+.cir16 {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: #334756;
+  border: 0.5px solid black;
+  animation-name: cir16;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 205px;
+  left: 125px;
+}
+@keyframes cir16  {
+  from {
+
+
+    background-color: #334756;
+  }
+  to {
+
+
+    background-color: #FF4C29;
+
+  }
+
+}
+.cir16:hover {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+
+}
+
+.cir17 {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #810034;
+  border: 0.5px solid black;
+  animation-name: cir17;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 100px;
+  left: 75px;
+}
+@keyframes cir17  {
+  from {
+
+
+    background-color: #810034;
+  }
+  to {
+
+
+    background-color: #553939;
+
+  }
+
+}
+.cir17:hover {
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+
+}
+
+.cir18 {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: #185ADB;
+  border: 0.5px solid black;
+  animation-name: cir18;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+@keyframes cir18  {
+  from {
+
+
+    background-color: #185ADB;
+  }
+  to {
+
+
+    background-color: #FFC947;
+
+  }
+
+}
+.cir18:hover {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+
+}
+.cir19 {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  background-color: #DA0037;
+  border: 0.5px solid black;
+  animation-name: cir19;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  right: 470px;
+}
+@keyframes cir19  {
+  from {
+
+
+    background-color: #DA0037;
+  }
+  to {
+
+
+    background-color: #39311D;
+
+  }
+
+}
+.cir19:hover {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+
+}
+.cir20 {
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  background-color: #87556F;
+  border: 0.5px solid black;
+  animation-name: cir20;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 90px;
+  right: 360px;
+}
+@keyframes cir20  {
+  from {
+
+
+    background-color: #87556F;
+  }
+  to {
+
+
+    background-color: #EAE7AF;
+
+  }
+
+}
+.cir20:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+
+}
+
+.cir21 {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-color: #3C6562;
+  border: 0.5px solid black;
+  animation-name: cir21;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 110px;
+  right: 430px;
+}
+@keyframes cir21  {
+  from {
+
+
+    background-color: #3C6562;
+  }
+  to {
+
+
+    background-color: #D72323;
+
+  }
+
+}
+.cir21:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+
+}
+.cir22 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: #3C6562;
+  border: 0.5px solid black;
+  animation-name: cir22;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 125px;
+  left: 240px;
+}
+@keyframes cir22  {
+  from {
+
+
+    background-color: #3C6562;
+  }
+  to {
+
+
+    background-color: #D72323;
+
+  }
+
+}
+.cir22:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+
+}
+.cir23 {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: #E23E57;
+  border: 0.5px solid black;
+  animation-name: cir23;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  left: 330px;
+}
+@keyframes cir23  {
+  from {
+
+
+    background-color: #E23E57;
+  }
+  to {
+
+
+    background-color: #00ADB5;
+
+  }
+
+}
+.cir23:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+
+}
+.cir24 {
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  background-color: #E23E57;
+  border: 0.5px solid black;
+  animation-name: cir24;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 170px;
+  right: 200px;
+}
+@keyframes cir24  {
+  from {
+
+
+    background-color: #E23E57;
+  }
+  to {
+
+
+    background-color: #00ADB5;
+
+  }
+
+}
+.cir24:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+
+}
+
+.cir25 {
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  background-color: #354259;
+  border: 0.5px solid black;
+  animation-name: cir25;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 230px;
+  left: 250px;
+}
+@keyframes cir25  {
+  from {
+
+
+    background-color: #354259;
+  }
+  to {
+
+
+    background-color: #8CC0DE;
+
+  }
+
+}
+.cir25:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+
+}
+.cir26 {
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  background-color: #354259;
+  border: 0.5px solid black;
+  animation-name: cir26;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 180px;
+  right: 320px;
+}
+@keyframes cir26  {
+  from {
+
+
+    background-color: #354259;
+  }
+  to {
+
+
+    background-color: #8CC0DE;
+
+  }
+
+}
+.cir26:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+
+}
+.cir27 {
+  height: 300px;
+  width: 300px;
+  border-radius: 300px;
+  background-color: #472D2D;
+  border: 0.5px solid black;
+  animation-name: cir27;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 30px;
+  left: 370px;
+}
+@keyframes cir27  {
+  from {
+
+
+    background-color: #472D2D;
+  }
+  to {
+
+
+    background-color: #576F72;
+
+  }
+
+}
+.cir27:hover {
+  height: 270px;
+  width: 270px;
+  border-radius: 270px;
+
+}
+.cir28 {
+  height: 150px;
+  width: 150px;
+  border-radius: 300px;
+  background-color: #3F4E4F;
+  border: 0.5px solid black;
+  animation-name: cir28;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  left: 660px;
+}
+@keyframes cir28  {
+  from {
+
+
+    background-color: #3F4E4F;
+  }
+  to {
+
+
+    background-color: #DF7861;
+
+  }
+
+}
+.cir28:hover {
+  height: 180px;
+  width: 180px;
+  border-radius: 270px;
+
+}
+.cir29 {
+  height: 150px;
+  width: 150px;
+  border-radius: 300px;
+  background-color: red;
+  border: 0.5px solid black;
+  animation-name: cir29;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  left: 1150px;
+}
+@keyframes cir29  {
+  from {
+
+
+    background-color: red;
+  }
+  to {
+
+
+    background-color: black;
+
+  }
+
+}
+.cir29:hover {
+  height: 180px;
+  width: 180px;
+  border-radius: 180px;
+
+}
+.cir30 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: #FF731D;
+  border: 0.5px solid black;
+  animation-name: cir30;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 170px;
+  right: 590px;
+}
+@keyframes cir30  {
+  from {
+
+
+    background-color: #FF731D;
+  }
+  to {
+
+
+    background-color: #224B0C;
+
+  }
+
+}
+.cir30:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+
+}
+.cir31 {
+  height: 180px;
+  width: 180px;
+  border-radius: 180px;
+  background-color: #FF731D;
+  border: 0.5px solid black;
+  animation-name: cir31;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 160px;
+  right: 1030px;
+}
+@keyframes cir31  {
+  from {
+
+
+    background-color: #FF731D;
+  }
+  to {
+
+
+    background-color: #224B0C;
+
+  }
+
+}
+.cir31:hover {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+
+}
+.cir32 {
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  background-color: #809A6F;
+  border: 0.5px solid black;
+  animation-name: cir32;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 10px;
+  right: 800px;
+}
+@keyframes cir32  {
+  from {
+
+
+    background-color: #809A6F;
+  }
+  to {
+
+
+    background-color: #A25B5B;
+
+  }
+
+}
+.cir32:hover {
+  height: 230px;
+  width: 230px;
+  border-radius: 230px;
+
+}
+.cir33 {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-color: #F8CB2E;
+  border: 0.5px solid black;
+  animation-name: cir33;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 200px;
+  right: 690px;
+}
+@keyframes cir33  {
+  from {
+
+
+    background-color: #F8CB2E;
+  }
+  to {
+
+
+    background-color: #79DAE8;
+
+  }
+
+}
+.cir33:hover {
+  height: 180px;
+  width: 180px;
+  border-radius: 180px;
+
+}
+.cir34 {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: #8B9A46;
+  border: 0.5px solid black;
+  animation-name: cir34;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 115px;
+  right: 710px;
+}
+@keyframes cir34  {
+  from {
+
+
+    background-color: #8B9A46;
+  }
+  to {
+
+
+    background-color: #541212;
+
+  }
+
+}
+.cir34:hover {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+
+}
+.cir35 {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: #8B9A46;
+  border: 0.5px solid black;
+  animation-name: cir35;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 200ms;
+  position: absolute;
+  top: 270px;
+  right: 900px;
+}
+@keyframes cir35  {
+  from {
+
+
+    background-color: #8B9A46;
+  }
+  to {
+
+
+    background-color: #541212;
+
+  }
+
+}
+.cir35:hover {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+
+}
+.cir36 {
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: #C84B31;
+  border: 0.5px solid black;
+  animation-name: cir36;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 10ms;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  top: 230px;
+  right: 0px;
+}
+@keyframes cir36  {
+  from {
+
+
+    background-color: #C84B31;
+  }
+  to {
+
+
+    background-color: #346751;
+
+  }
+
+}
+.cir36:hover {
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+
+}
+.h1 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  animation-name: text;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  transition-duration: 10ms;
+  letter-spacing: 100px;
+}
+@keyframes text  {
+  from {
+
+
+    color: white;
+  }
+  to {
+
+
+    color: red;
+
+  }
+
+}
+.audio1 {
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+span {
+  animation-name: span;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  padding: 10px;
+  animation-direction: alternate;
+}
+@keyframes span {
+  0% {
+    color: red;
+
+  }
+  50% {
+    color: white;
+    border-bottom: 2px solid white;
+
+  }
+  100% {
+    color: red;
+    border-bottom: 3px solid black;
+
+  }
+
+}
+.span2 {
+  animation-name: span2;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  padding-right: 0px;;
+
+}
+@keyframes span2 {
+  0% {
+    color: red;
+
+  }
+  50% {
+    color: white;
+    border-top: 2px solid white;
+
+  }
+  100% {
+    color: red;
+    border-top: 3px solid black;
+
+  }
+
+}
